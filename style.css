@@ -1,12 +1,37 @@
 body {
     color:black;
-    font-size: 1em;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 12px;
-    background-image: url('assets/images/parchment.jpg');
+    background-color: #000; 
+	font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+	font-style:italic
+    font-size: 18px;
+    background-image: url('assets/images/cream_pixels.png');
     background-size: cover;
+	margin-left:30px;
+}
+Header {
+  text-align: center;
+  vertical-align: text-top;
+  width: 100%;
+  height: 40px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-stretch:expanded;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+img {
+	border-radius: 8px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
 }
 
+	
 #footer {
   padding: 20px 0;
   text-align: center;
